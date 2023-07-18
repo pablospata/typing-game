@@ -21,7 +21,7 @@ async function renderNewQuote() {
         characterSpan.innerText = character;
         quoteDisplay.appendChild(characterSpan);
     });
-    
+
     clearInterval(intervalId);
     startTimer();
 }
